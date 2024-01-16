@@ -1,0 +1,151 @@
+.Homepage-Favorite-Resorts{
+    display: flex;
+    justify-content: center;
+}
+
+.position-div{
+    max-width: 1350px;
+    margin: 0 auto;
+    width: 1600px;
+    height: 600px;
+    top: auto;
+    left: 280px;
+    display: flex;
+
+}
+
+.text-box{
+    width: 460px;
+    height: 500px;
+    left: 280px;
+    
+}
+
+.title-box{
+    width: 460px;
+    height: 180px;
+    
+    left: 280px;
+}
+
+.title-box-h4{
+    width: 110px;
+    height: 30px;
+    
+    left: 280px;
+    font-family: "Poppins";
+    font-weight: 700;
+    size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #DF6951;
+}
+
+.title-box-h5{
+    width: 460px;
+    height: 130px;
+    
+    left: 280px;
+    font-family: "Volkhov";
+    font-weight: 700;
+    size: 50px;
+    line-height: 66px;
+    color: #181E4B;
+}
+
+.container-frame{
+    width: 400px;
+    height: 285px;
+    left: 280px;
+    align-items: center;
+   
+}
+
+.container{
+    width: 400px;
+    height: 285px;
+    left: 280px;
+   
+   
+}
+
+.container-box{
+    width: 400px;
+    height: 64px;
+    left: 280px;
+    gap: 20px 20px 20px 20px;
+   
+}
+
+.container-title-h6{
+    width: 160px;
+    height: 20px;
+    
+    left: 345px;
+    font-family: "Poppins";
+    font-weight: 700;
+    size: 16px;
+    line-height: 20px;
+    color: #5E6282;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+
+.container-text-p{
+    width: 328px;
+    height: 40px;
+    
+    left: 345px;
+    font-family: "Poppins";
+    font-weight: 400;
+    size: 16px;
+    line-height: 20px;
+    color: #5E6282;
+    display: flex;
+    float: right;
+    align-items: center; 
+
+}
+
+.container-title-h7{
+    width: 152px;
+    height: 20px;
+    
+    left: 345px;
+    font-family: "Poppins";
+    font-weight: 700;
+    size: 16px;
+    line-height: 20px;
+    color: #5E6282;
+    display: flex;
+    align-items: center; 
+    
+}
+
+.container-title-h8{
+    width: 64px;
+    height: 20px;
+    
+    left: 345px;
+    font-family: "Poppins";
+    font-weight: 700;
+    size: 16px;
+    line-height: 20px;
+    color: #5E6282;
+    display: flex;
+    align-items: center; 
+    float: right;
+
+}
+
+.image-box{
+    width: 528px;
+    height: 418px;
+    top: 300px;
+    left: 1030px;
+    border: 1px;
+    display: flex;
+    float: right;
+}
