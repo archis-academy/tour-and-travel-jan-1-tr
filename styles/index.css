@@ -1,233 +1,108 @@
-.all{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.title-container{
-    max-width: 100%;
-    margin-top: 56px;
+.homepage-trending-tour-title-box{
+    margin: auto;
     text-align: center;
+    margin-top: 56px; 
+    max-width: 485px;  
 }
-
-.title-trendy{
+.trending-tour-title-trendy{
     color: #DF6951;
-    font-family: "Poppins";
-    text-align: center;
+    font-family: 'Poppins' , sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: bold ;
-    line-height: normal;
+    font-weight: 700;
     letter-spacing: 1.8px;
-    text-transform: uppercase;
 }
-
-.title-our-trending-tour{
+.trending-tour-title-our-trending{
     color: #181E4B;
-    font-family: "Volkhov";
-    font-size: 25px;
-    font-style: normal;
-    text-align: center;
+    font-family: 'Volkhov' , serif;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 71.042px; /* 142.085% */
+    line-height: 70px
 }
-
-.title-packages{
-    color:#181E4B;
-    font-family: "Volkhov";
-    font-size: 25px;
-    font-style: normal;
-    text-align: center;
-    font-weight: 700;
-    line-height: 71.042px; /* 142.085% */
-}
-
-.content-container{
-    max-width: 100%;
-    max-height: 100%;
+.homepage-trending-tour-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
     margin-top: 51px;
     margin-bottom: 56px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 100px;
 }
-
-.img-swiss{
-    display: block;
+.trending-packages-card-box{
+    max-width: 393px;
 }
-
-.img-swiss-flag{
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    left: 32.5px;
-}
-
-.img-brazil{
-    display: block;
-}
-
-.img-brazil-flag{
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    left: 32.5px
-}
-
-.img-egypt{
-    display: block;
-}
-
-.img-egypt-flag{
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    left: 32.5px
-}
-
-.img-position{
+.packages-card-images{
     position: relative;
-    width: 393px;
-    height: 345.5px;
-    margin-bottom: 0px;
 }
-
-.img-calendar-icon{
-    display: inline;
+.packages-card-img{
+    width: 100%;
 }
-
-.text-calendar-icon{
-    display: inline;
-    color: #7D7D7D;
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 16.809px;
-    font-style: normal;
-    font-weight: 400;
+.packages-card-flag-img{
     position: absolute;
-    line-height: 20px;
-    margin-left: 8px;
+    bottom: -78px;
+    left: 10px;
 }
-
-.img-user-icon{
-    display: inline;
-}
-
-.text-user-icon{
-    display: inline;
+.packages-card-calender-and-user-box{
+    margin-top: 40px;
     color: #7D7D7D;
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 16.809px;
-    font-style: normal;
-    font-weight: 400;
-    position: absolute;
-    line-height: 20px;
-    margin-left: 8px;
+    font-family: 'Poppins' , sans-serif;
+    display: flex;
+    gap: 35px;
 }
-
-.calendar-container{
-    display: inline;
-    width: 116px;
-}
-
-.user-container{
-    display: inline;
-}
-
-.calendar-and-user-container{
+.packages-card-calender-and-user{
     display: flex;
     gap: 10px;
-}
-
-.pleace-text{
-    display: inline-flex;
-    color: #2F2F2F;
-    font-family: "Poppins";
-    font-size: 29.033px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
-    width: 176px;
-}
-
-.star-container{
-    display: inline;
-    margin-left: 113px;
-}
-
-.img-location-icon{
-    display: inline;
-}
-
-.text-location-icon{
-    display: inline;
-    color: #7D7D7D;
-    font-family: "Poppins";
-    font-size: 16.809px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    text-transform: capitalize;
-    position: absolute;
-    margin-left: 5.5px;
-}
-
-.text-new-price{
-    display: inline;
-    color: #DF6951;
-    font-family: "Poppins";
-    font-size: 29.033px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    text-transform: capitalize;
-}
-
-.text-price{
-    display: inline;
-    color: #7D7D7D;
-    font-family: "Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    text-transform: capitalize;
-    text-decoration: line-through;
-    margin-left: 19px;
-}
-
-.text-tour-content{
-    width: 391px;
-    color: var(--black, #000);
-    font-family: "Poppins";
-    font-size: 12.224px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24.449px; /* 200% */
-    letter-spacing: 0.611px;
-}
-
-.explore-now-button{
-    border: #DF6951;
-    border-radius: 7.64px;
-    background-color: #DF6951;
-    box-shadow: 0px 15.28px 26.741px 0px rgba(223, 105, 81, 0.15);
-    display: flex;
-    width: 134.897px;
-    height: 43.103px;
-    padding: 0px 27.937px 7.184px 0px;
-    justify-content: center;
     align-items: center;
-    gap: 7.982px;
-    flex-shrink: 0;
-    color: var(--white, #FFF);
-    text-align: center;
-    font-family: Poppins;
-    font-size: 12.771px;
-    font-style: normal;
+}
+.packages-card-place-and-star-box{
+    color: #2F2F2F;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.packages-card-location-box{
+    display: flex;
+    align-items: center;
+    color: #7D7D7D;
+    font-family: 'Poppins' , sans-serif;
+    gap: 5.5px;
+    padding-top: 4px;
+}
+.packages-card-price-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 8px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 700;
+}
+.packages-card-new-price{
+    color: #DF6951;
+    font-size: 30px;
+}
+.packages-card-price{
+    color: #7D7D7D;
+    font-size: 22px;
+    text-decoration: line-through;
+}
+.packages-card-text-box{
+    color: black;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    padding-top: 4px;
+    padding-bottom: 25px;
+}
+.packages-card-button{
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 12px;
     font-weight: 600;
-    line-height: normal;
-    margin-top: 30px;
+    background: #DF6951;
+    border: none;
+    border-radius: 7.5px;
+    box-shadow: 0px 15px 25px 0px  rgba(225, 105, 80, 0.2);
+    padding: 12.5px 25px;
 }
