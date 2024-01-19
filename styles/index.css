@@ -1,4 +1,8 @@
-
+.homepage-favorite-resorts{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 50px 0;
+}
 .favorite-resorts-container{
     max-width: 1350px; 
     display: flex;
