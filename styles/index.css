@@ -1,3 +1,26 @@
+.homepage-partners-container{
+  
+  width: 100%;
+  
+  background-color: #F7F7F7;
+}
+
+.homepage-partners-images{
+  
+  
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.partners-image{
+
+  height: 50px;
+
+}
 .homepage-favorite-resorts{
   display: flex;
   justify-content: center;
