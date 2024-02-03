@@ -87,15 +87,61 @@ color: #181E4B;
   position: relative;
 }
 
+.explore-cities-img{
+  position: relative;
+}
+
 .explore-nature-box{
   text-align: center;
   position: absolute;
-  width: 405px;
-  
+  width: 375px;
+  height: 72px;
+  top: 15px;
+  bottom: 70px;
+  left: 292px;
+  color: white;
+  display: block;
+  margin: auto;
+
 }
 
 .explore-cities-box{
   text-align: center;
+  position: absolute;
+  width: 375px;
+  right: 500px;
+  left: 292px;
+  top: 130px;
+  bottom: 70px;
+  display: block;
+  margin: auto;
+  color: white;
+  
+}
+
+
+.packages-btn{
+  padding: 20px 72px 20px 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  font-weight: bold;
+  width: 180px;
+  color: white;
+  
+}
+
+
+.promotion{
+  font-family: "Poppins" sans-serif;
+  font-size: 20px;
+}
+
+.exp-nature-text{
+  font-family: "Volkhov" sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  
 }
 
 
