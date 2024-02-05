@@ -1,0 +1,43 @@
+.about-explore-packages-section{
+    padding: 40px;
+}
+.explore-packages-title-box{
+    max-width: 680px;
+    margin: auto;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.explore-packages-title-explore{
+    color: #DF6951;
+    font-family: "Poppins" ,sans-serif;
+    font-size: 18px;
+}
+.explore-packages-title-our-international{
+    color: #181E4B;
+    font-family: "Volkhov" ,serif;
+    font-size: 50px;
+    line-height: 72px;
+}
+.explore-packages-img-boxes{
+    display: grid;
+    grid-template: repeat(auto-fit, minmax(363px, 1fr)) / repeat(auto-fit, minmax(363px, 1fr));
+    gap: 52px 56px;
+}
+
+
+/* .explore-packages-img-boxes{
+    display: grid;
+    grid-template: repeat(3, 363px) / repeat(auto-fit, minmax(363px, 1fr));
+    gap: 52px 56px;  
+}      */
+.explore-packages-img-india{
+    grid-column: -2/-1;
+    width: 100%;
+}
+.explore-packages-img-rio{
+    height: 778px;
+}
+.explore-packages-img{
+    width: 100%;
+}
