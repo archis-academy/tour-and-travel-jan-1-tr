@@ -1,43 +1,51 @@
-.about-explore-packages-section{
-    padding: 40px;
+.about-explore-packages-section {
+  padding: 0 20px;
 }
-.explore-packages-title-box{
-    max-width: 680px;
-    margin: auto;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 70px;
+.explore-packages-title-box {
+  max-width: 680px;
+  margin: auto;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 70px;
 }
-.explore-packages-title-explore{
-    color: #DF6951;
-    font-family: "Poppins" ,sans-serif;
-    font-size: 18px;
+.explore-packages-title-explore {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
 }
-.explore-packages-title-our-international{
-    color: #181E4B;
-    font-family: "Volkhov" ,serif;
-    font-size: 50px;
-    line-height: 72px;
+.explore-packages-title-our-international {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  line-height: 72px;
 }
-.explore-packages-img-boxes{
-    display: grid;
-    grid-template: repeat(auto-fit, minmax(363px, 1fr)) / repeat(auto-fit, minmax(363px, 1fr));
-    gap: 52px 56px;
+.explore-packages-img-boxes {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 363px));
+  justify-content: center;
+  gap: 52px 56px;
 }
-
-
-/* .explore-packages-img-boxes{
-    display: grid;
-    grid-template: repeat(3, 363px) / repeat(auto-fit, minmax(363px, 1fr));
-    gap: 52px 56px;  
-}      */
-.explore-packages-img-india{
-    grid-column: -2/-1;
-    width: 100%;
+.explore-packages-img {
+  width: 100%;
+  position: absolute;
 }
-.explore-packages-img-rio{
-    height: 778px;
+.explore-packages-img-rio {
+  grid-row: auto / span 2;
+  position: relative;
 }
-.explore-packages-img{
-    width: 100%;
+.explore-packages-text-box {
+  position: absolute;
+}
+.explore-packages-img-box {
+  position: relative;
+}
+@media (max-width: 450px) {
+  .explore-packages-title-our-international {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .explore-packages-title-box {
+    padding-bottom: 30px;
+  }
 }
