@@ -1,165 +1,149 @@
-.homepage-favorite-resorts{
+.homepage-favorite-resorts {
   display: flex;
   justify-content: center;
   margin: 80px 0 50px 0;
 }
-.favorite-resorts-container{
-  max-width: 1350px; 
+.favorite-resorts-container {
+  max-width: 1350px;
   display: flex;
   flex: 1;
   justify-content: space-between;
 }
 
-.favorites-contexts-box{
- display: flex;
- flex-direction: column;
- justify-content: center;
- gap: 20px;
- max-width: 400px;
-
+.favorites-contexts-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 400px;
 }
 
-.favorite-top-title{
+.favorite-top-title {
   max-width: 450px;
   font-family: "Poppins";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: #DF6951;
+  color: #df6951;
 }
 
-.favorite-title{
-max-width: 450px;
-font-family: "Volkhov";
-font-size: 42px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-padding: 0 0 30px;
-color: #181E4B;
-
-
+.favorite-title {
+  max-width: 450px;
+  font-family: "Volkhov";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 0 0 30px;
+  color: #181e4b;
 }
 
-.favorites-contexts-image{
+.favorites-contexts-image {
   /*width: 50px;
   height: 50px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-
-  
 }
 
-.favorite-subtitle{
+.favorite-subtitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  color: #5E6282;
+  color: #5e6282;
   font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 125%;
-
 }
 
-.favorite-text{
-  color: #5E6282;
+.favorite-text {
+  color: #5e6282;
   font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 125%;
 }
-
-.homepage-explore-section-two-img{
+/* NOT:homepage-explore-section-baslangic */
+.homepage-explore-section-two-img {
   display: flex;
-  justify-content: center;
+  width: 100%;
+}
+
+.explore-nature-img {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  
+}
+.explore-background-img{
+  width: 100%;
+  height: 400px;
+}
+
+.explore-cities-img {
+  flex: 1;
+  position: relative;
+  width: 100%;
   
 }
 
-.explore-nature-img{
-  position: relative;
-}
-
-.explore-cities-img{
-  position: relative;
-}
-
-.explore-nature-box{
+.explore-image-box {
   text-align: center;
   position: absolute;
-  width: 375px;
-  height: 72px;
-  top: 15px;
-  bottom: 70px;
-  left: 292px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   display: block;
   margin: auto;
   font-weight: bold;
-
 }
 
-.explore-cities-box{
-  text-align: center;
-  position: absolute;
-  width: 375px;
-  right: 500px;
-  left: 292px;
-  top: 130px;
-  bottom: 70px;
-  display: block;
-  margin: auto;
-  color: white;
-  
+.pro-exp-nature {
+  position: relative;
 }
 
-
-.packages-btn{
-  padding: 20px 72px 20px 10px;
+.packages-btn {
+  padding: 20px 25px;
   border-radius: 10px;
   background-color: transparent;
   border: 2px solid white;
-  font-weight: bold;
-  width: 180px;
+  font-weight: 800px;
   color: white;
   margin-top: 15px;
-
 }
 
-.paraf-1{
-  position: absolute;
-  right: 0px;
-  top: 80px;
-
-}
-
-.paraf-2{
+.paraf-1 {
   position: absolute;
   right: 0px;
   top: 80px;
 }
 
+.paraf-2 {
+  position: absolute;
+  right: 0px;
+  top: 80px;
+}
 
-.promotion{
+.promotion {
   font-family: "Poppins" sans-serif;
   font-size: 20px;
 }
 
-.exp-nature-text{
+.exp-nature-text {
   font-family: "Volkhov" sans-serif;
   font-size: 50px;
   font-weight: 700px;
   line-height: 71px;
-  
 }
-
+/* NOT:homepage-explore-section-bitis */
 
 .homepage-trending-tour-packages-conteiner {
   padding: 0 20px;
