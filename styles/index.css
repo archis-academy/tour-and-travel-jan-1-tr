@@ -1,17 +1,22 @@
 .homepage-partners-container{
   
   width: 100%;
-  
+  height: 200px;
   background-color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
 }
 
 .homepage-partners-images{
   
   
-  width: 100%;
-  height: 200px;
+  max-width: 1920px;
+  flex: 1;
+  
   display: flex;
-  align-items: center;
+  
   justify-content: space-around;
   
 }
