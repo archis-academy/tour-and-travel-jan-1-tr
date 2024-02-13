@@ -1,103 +1,100 @@
-.homepage-partners-container{
-  
+@keyframes slide{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.homepage-partners-container {
   width: 100%;
   height: 200px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   display: flex;
   align-items: center;
-  justify-content:center;
-
+  justify-content: center;
 }
 
-.homepage-partners-images{
-  
-  
+.homepage-partners-images {
   max-width: 1920px;
   flex: 1;
-  
   display: flex;
-  
   justify-content: space-around;
-  
+  white-space: nowrap;
+  animation: 35s slide infinite linear;
+  display: inline-block;
 }
 
-.partners-image{
-
+.partners-image {
   height: 50px;
-
 }
-.homepage-favorite-resorts{
+.homepage-favorite-resorts {
   display: flex;
   justify-content: center;
   margin: 80px 0 50px 0;
 }
-.favorite-resorts-container{
-  max-width: 1350px; 
+.favorite-resorts-container {
+  max-width: 1350px;
   display: flex;
   flex: 1;
   justify-content: space-between;
 }
 
-.favorites-contexts-box{
- display: flex;
- flex-direction: column;
- justify-content: center;
- gap: 20px;
- max-width: 400px;
-
+.favorites-contexts-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 400px;
 }
 
-.favorite-top-title{
+.favorite-top-title {
   max-width: 450px;
   font-family: "Poppins";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: #DF6951;
+  color: #df6951;
 }
 
-.favorite-title{
-max-width: 450px;
-font-family: "Volkhov";
-font-size: 42px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-padding: 0 0 30px;
-color: #181E4B;
-
-
+.favorite-title {
+  max-width: 450px;
+  font-family: "Volkhov";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 0 0 30px;
+  color: #181e4b;
 }
 
-.favorites-contexts-image{
+.favorites-contexts-image {
   /*width: 50px;
   height: 50px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-
-  
 }
 
-.favorite-subtitle{
+.favorite-subtitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  color: #5E6282;
+  color: #5e6282;
   font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 125%;
-
 }
 
-.favorite-text{
-  color: #5E6282;
+.favorite-text {
+  color: #5e6282;
   font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
