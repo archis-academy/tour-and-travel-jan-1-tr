@@ -7,27 +7,60 @@
   }
 }
 
-.homepage-partners-container {
+.homepage-partners-section{
   width: 100%;
   height: 200px;
   background-color: #f7f7f7;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
+.homepage-partners-container {
+  
+ max-width: 1350px;
+ overflow: hidden;
+ white-space: nowrap;
+ position: relative;
+
+}
+
+.homepage-partners-section:before{
+  left: 0;
+background: linear-gradient(to left,rgba(255, 255, 255, 0), white);
+
+}
+
+.homepage-partners-section::after{
+  right: 0;
+  background: linear-gradient(to right,rgba(255, 255, 255, 0), white);
+}
+
+.homepage-partners-section:before,
+.homepage-partners-section::after{
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: " ";
+z-index: 2;
+}
+
+.homepage-partners-section:hover .homepage-partners-images{
+  animation-play-state: paused; 
+}
 .homepage-partners-images {
-  max-width: 1920px;
-  flex: 1;
-  display: flex;
-  justify-content: space-around;
-  white-space: nowrap;
-  animation: 35s slide infinite linear;
+  animation: 10s slide infinite linear;
   display: inline-block;
+  gap: 80px;
+  
+
 }
 
 .partners-image {
   height: 50px;
+  padding: 0 50px;
 }
 .homepage-favorite-resorts {
   display: flex;
