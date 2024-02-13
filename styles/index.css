@@ -1,75 +1,69 @@
-.homepage-favorite-resorts{
+.homepage-favorite-resorts {
   display: flex;
   justify-content: center;
   margin: 80px 0 50px 0;
 }
-.favorite-resorts-container{
-  max-width: 1350px; 
+.favorite-resorts-container {
+  max-width: 1350px;
   display: flex;
   flex: 1;
   justify-content: space-between;
 }
 
-.favorites-contexts-box{
- display: flex;
- flex-direction: column;
- justify-content: center;
- gap: 20px;
- max-width: 400px;
-
+.favorites-contexts-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 400px;
 }
 
-.favorite-top-title{
+.favorite-top-title {
   max-width: 450px;
   font-family: "Poppins";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: #DF6951;
+  color: #df6951;
 }
 
-.favorite-title{
-max-width: 450px;
-font-family: "Volkhov";
-font-size: 42px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
-padding: 0 0 30px;
-color: #181E4B;
-
-
+.favorite-title {
+  max-width: 450px;
+  font-family: "Volkhov";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 0 0 30px;
+  color: #181e4b;
 }
 
-.favorites-contexts-image{
+.favorites-contexts-image {
   /*width: 50px;
   height: 50px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-
-  
 }
 
-.favorite-subtitle{
+.favorite-subtitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  color: #5E6282;
+  color: #5e6282;
   font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 125%;
-
 }
 
-.favorite-text{
-  color: #5E6282;
+.favorite-text {
+  color: #5e6282;
   font-family: "Poppins";
   font-size: 16px;
   font-style: normal;
@@ -104,8 +98,7 @@ color: #181E4B;
   justify-content: center;
   gap: 100px;
   flex-wrap: wrap;
-  margin-top: 51px;
-  margin-bottom: 56px;
+  padding: 50px 0;
 }
 .trending-packages-card-box {
   max-width: 393px;
@@ -187,3 +180,164 @@ color: #181E4B;
   box-shadow: 0px 15px 25px 0px rgba(225, 105, 80, 0.2);
   padding: 12.5px 25px;
 }
+/*Homepage Trending Tour END*/
+
+.homepage-testimonial-section-container {
+  margin-top: 85px;
+  background: rgb(215, 215, 215, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.testimonial-section-seashell-img {
+  position: absolute;
+  left: 265px;
+  top: -78px;
+}
+.testimonial-section-photo-img {
+  position: absolute;
+  right: 150px;
+  top: -87px;
+}
+.testimonial-section-hat-img {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.testimonial-section-title-box {
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 100px;
+  z-index: +1;
+}
+.testimonial-title-promotion {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+}
+.testimonial-title-see-what {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  line-height: 70px;
+}
+.testimonial-section-box {
+  padding: 95px 80px 35px 80px;
+  background-color: #fff;
+  border-radius: 17px;
+  position: relative;
+}
+.testimonial-section-pp-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -73px;
+}
+.testimonial-section-arrow-left-icon {
+  position: absolute;
+  left: -66px;
+}
+.testimonial-section-arrow-right-icon {
+  position: absolute;
+  right: -66px;
+}
+.testimonial-comment-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  line-height: 24.5px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+.testimonial-section-box-quotes {
+  position: absolute;
+  top: -42px;
+  left: -30px;
+}
+.testimonial-comment-text {
+  font-size: 12px;
+}
+.testimonial-comment-text span {
+  font-size: 28px;
+  font-weight: 700;
+  display: inline-block;
+  transform: translateY(-10px);
+  font-family: serif;
+}
+.testimonial-comment-commentator {
+  font-size: 12px;
+  font-weight: 700;
+}
+.testimonial-pagination-img {
+  padding: 35px 0px 70px 0px;
+  z-index: +1;
+}
+@media (max-width: 575px) {
+  .homepage-testimonial-section-container {
+    padding: 40px 23px;
+  }
+  .testimonial-section-seashell-img {
+    width: 105px;
+    height: 108px;
+    top: -39px;
+    left: 0px;
+  }
+  .testimonial-section-photo-img {
+    width: 150px;
+    height: 170px;
+    top: -44px;
+  }
+  .testimonial-section-hat-img {
+    width: 250px;
+    height: 240px;
+  }
+  .testimonial-title-see-what {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .testimonial-section-box {
+    padding: 85px 40px 35px 40px;
+  }
+  .testimonial-comment-box {
+    line-height: 14px;
+    letter-spacing: 0.1px;
+  }
+  .testimonial-comment-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .testimonial-section-arrow-left-icon {
+    display: none;
+  }
+  .testimonial-section-arrow-right-icon {
+    display: none;
+  }
+  .testimonial-section-box {
+    background: rgb(255, 255, 255, 0.5);
+  }
+}
+@media (max-width: 1150px) {
+  .testimonial-section-seashell-img {
+    opacity: 0.7;
+  }
+  .testimonial-section-photo-img {
+    opacity: 0.7;
+  }
+}
+@media (max-width: 1450px) {
+  .testimonial-section-seashell-img {
+    left: 0;
+  }
+  .testimonial-section-photo-img {
+    right: 0;
+  }
+}
+/*Homepage Tesimonial END*/
