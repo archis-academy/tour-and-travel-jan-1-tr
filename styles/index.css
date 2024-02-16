@@ -70,7 +70,6 @@
   margin-top: 10px;
   font-size: 16px;
   font-weight: 500;
-  width: 150px;
   height: 78px;
 }
 
@@ -164,6 +163,7 @@
   position: relative;
   max-width: 1350px;
   margin: auto;
+  flex-wrap: wrap;
 }
 .homepage-favorite-resorts {
   display: flex;
