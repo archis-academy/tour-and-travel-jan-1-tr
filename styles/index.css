@@ -11,7 +11,7 @@
   margin: 30px auto;
 }
 
-.title {
+.best-services-title {
   color: #181e4b;
   text-align: center;
   font-family: "Volkhov" sans-serif;
@@ -22,7 +22,7 @@
   text-transform: capitalize;
 }
 
-.subtitle {
+.best-services-subtitle {
   color: #df6951;
   text-align: center;
   font-family: "Poppins" sans-serif;
@@ -33,7 +33,7 @@
   margin-bottom: 15px;
 }
 
-.card {
+.best-services-card {
   width: 267px;
   height: 314px;
   padding: 15px;
@@ -45,7 +45,7 @@
   text-align: center;
   position: relative;
 }
-.plane-card {
+.best-services-plane-card {
   width: 267px;
   height: 314px;
   padding: 15px;
@@ -101,7 +101,7 @@
   z-index: 0;
 }
 
-.test-div {
+.best-services-test-div {
   width: 50px;
   height: 49px;
   border-radius: 10px 5px 18px 5px;
@@ -112,7 +112,7 @@
   z-index: -1;
 }
 
-.plane-div {
+.best-services-plane-div {
   width: 50px;
   height: 49px;
   border-radius: 5px 5px 10px 18px;
@@ -123,7 +123,7 @@
   z-index: -1;
 }
 
-.hands-div {
+.best-services-hands-div {
   width: 50px;
   height: 49px;
   border-radius: 10px 18px 10px 10px;
@@ -134,7 +134,7 @@
   z-index: -1;
 }
 
-.medical-div {
+.best-services-medical-div {
   width: 50px;
   height: 49px;
   border-radius: 5px 10px 5px 5px;
@@ -145,19 +145,19 @@
   z-index: -1;
 }
 
-.plane-and-orange {
+.best-services-plane-and-orange {
   position: relative;
   z-index: 0;
 }
 
-.moon-image {
+.best-services-moon-image {
   position: absolute;
   bottom: -35px;
   left: -35px;
   z-index: -1;
 }
 
-.all-cards {
+.best-services-all-cards {
   display: flex;
   gap: 30px;
   justify-content: center;
