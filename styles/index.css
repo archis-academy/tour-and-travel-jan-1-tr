@@ -1,13 +1,10 @@
 .best-services-container {
   width: 100%;
   position: relative;
-  z-index: 10;
   margin-bottom: 125px;
 }
 
 .best-services-title-container {
-  width: 50%;
-  height: 150px;
   margin: 30px auto;
 }
 
@@ -34,8 +31,7 @@
 }
 
 .best-services-card {
-  width: 267px;
-  height: 314px;
+  max-width: 267px;
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -46,8 +42,7 @@
   position: relative;
 }
 .best-services-plane-card {
-  width: 267px;
-  height: 314px;
+  max-width: 267px;
   padding: 15px;
   display: flex;
   flex-direction: column;
