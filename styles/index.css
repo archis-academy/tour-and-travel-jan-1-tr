@@ -42,7 +42,7 @@ background: linear-gradient(to left,rgba(255, 255, 255, 0), white);
   position: absolute;
   top: 0;
   width: 250px;
-  height: 100%;
+  height: 250px;
   content: " ";
 z-index: 2;
 }
