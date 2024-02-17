@@ -139,3 +139,69 @@
   }
 }
 /* About Trend Section END */
+.about-explore-packages-section-container {
+  padding: 0 20px 50px 20px;
+}
+.explore-packages-title-box {
+  max-width: 680px;
+  margin: auto;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.explore-packages-title-explore {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.explore-packages-title-our-international {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  line-height: 72px;
+}
+.explore-packages-img-and-text-boxes {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 363px));
+  justify-content: center;
+  gap: 52px 56px;
+}
+.explore-packages-img-and-text-box {
+  position: relative;
+}
+.explore-packages-img {
+  width: 100%;
+}
+.explore-packages-img-and-text-rio {
+  grid-row: auto / span 2;
+  position: relative;
+}
+.explore-packages-text-box {
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+@media (max-width: 403px) {
+  .explore-packages-text-box {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 450px) {
+  .explore-packages-title-our-international {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .explore-packages-title-box {
+    padding-bottom: 30px;
+  }
+}
+/* About Explore Packages Section END */
