@@ -62,7 +62,7 @@
     line-height: 20px;
   }
 }
-
+/* About Promotion END */
 .about-trend-section-container {
   display: flex;
   flex-wrap: wrap;
@@ -70,13 +70,13 @@
   align-items: center;
   gap: 200px;
   padding: 0 20px 100px 20px;
+  position: relative;
 }
 .about-trend-img {
   max-width: 100%;
 }
 .about-trend-content-box {
   max-width: 580px;
-  position: relative;
 }
 .about-trend-title-trend {
   color: #df6951;
@@ -121,8 +121,8 @@
 }
 .about-trend-shell-img {
   position: absolute;
-  top: -100px;
-  right: -300px;
+  right: 0;
+  top: -15px;
 }
 @media (max-width: 1400px) {
   .about-trend-section-container {
@@ -133,8 +133,9 @@
     padding-bottom: 50px;
   }
 }
-@media (max-width: 1960px) {
+@media (max-width: 1860px) {
   .about-trend-shell-img {
     display: none;
   }
 }
+/* About Trend Section END */
