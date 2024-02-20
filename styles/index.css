@@ -11,7 +11,8 @@
   width: 100%;
 }
 .hm-content{
-  width: 600px;
+  max-width: 600px;
+  
 }
  .hm-content-subtitle{
   font-family: "Poppins", sans-serif;
@@ -52,9 +53,16 @@ color: #181e4b;
 
  @media (max-width: 610px){
   .hm-content{
-    padding: 7px;
-  }
+    padding: 12px;
   
+  }
+  .hm-image{
+    padding: 12px;
+  }
+.section-honeymoon{
+  gap:50px
+}
+
  }
 
 .homepage-favorite-resorts{
