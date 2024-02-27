@@ -293,10 +293,19 @@
   line-height: 125%;
 }
 
-@media (max-width: 870px){
+@media (max-width: 1050px){
   .favorite-resorts-container{
     padding: 7px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
   }
+  .favorite-image-box{
+    max-width: 645px;
+ }
+ .favorite-plane-img{
+  width: 100%;
+ }
 
 }
 
