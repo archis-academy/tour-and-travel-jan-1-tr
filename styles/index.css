@@ -39,15 +39,14 @@ color: #181e4b;
   margin: 20px 0;
  }
  .hm-content-btn{
-  width: 176px;
-  height: 56px;
+  padding: 10 14px;
   border-radius: 10px;
   background-color: #df6951;
   color: white;
   border-style: none;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 26px;
  }
 
@@ -60,10 +59,18 @@ color: #181e4b;
     padding: 12px;
   }
 .section-honeymoon{
-  gap:50px
+  gap: 10px;
 }
 
- }
+.hm-content-title{
+  font-size: 8px;
+  line-height: 35px;
+
+
+}
+
+
+}
 
 .homepage-favorite-resorts{
   display: flex;
