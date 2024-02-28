@@ -309,6 +309,53 @@
 
 }
 
+@media(max-width:570px) {
+  
+.favorite-top-title {
+   
+  font-size: 16px;
+   
+  }
+  
+  .favorite-title {
+   
+    font-size: 30px;
+    
+  }
+  
+
+  
+}
+
+@media(max-width:300px) {
+  
+  .favorite-top-title {
+     
+    font-size: 10px;
+     
+    }
+    
+    .favorite-title {
+     
+      font-size: 20px;
+      
+    }
+    
+   
+   
+.favorite-subtitle {
+   font-size: 10px;
+}
+    .favorite-text{
+      font-size: 10px;
+    } 
+    
+    .favorite-context-single-image{
+      width: 30px;
+      height: 30px;
+    }
+  }
+
 .homepage-trending-tour-packages-conteiner {
   padding: 0 20px;
 }
