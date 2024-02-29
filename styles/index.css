@@ -403,3 +403,42 @@
   padding: 12.5px 25px;
 }
 /*Homepage Trending Tour END*/
+
+.about-page-hero{
+  background-image: url("./../images/about/about-header-img.png");
+  height: 766px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  overflow: hidden;
+  max-width: 1440px;
+  margin: auto;
+}
+.text{
+  text-align: center;
+}
+.about-typografi{
+  text-align: center;
+
+}
+
+.about-subtitle{
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+color: #FFEFEC;
+;
+}
+
+.about-tittle{
+font-family: "Yesteryear";
+font-weight: 400;
+font-size: 158px;
+line-height: 224px;
+color: #FFFFFF;
+;
+
+}
