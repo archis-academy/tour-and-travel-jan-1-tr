@@ -411,34 +411,58 @@
   background-size: contain;
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  gap: 26px;
   overflow: hidden;
-  max-width: 1440px;
-  margin: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+
 }
 .text{
   text-align: center;
 }
-.about-typografi{
-  text-align: center;
+.about-hero-typografi{
+  width: 495px;
+  margin: auto;
 
 }
 
-.about-subtitle{
+.about-hero-subtitle{
   font-family: "Poppins";
-  font-size: 18px;
+  font-size: clamp(10px, 4vw, 25px);
   line-height: 28px;
   font-weight: 700;
-color: #FFEFEC;
+  color: #FFEFEC;
+  margin-left: 226px;
+  margin-bottom: 0;
 ;
 }
 
-.about-tittle{
+.about-hero-tittle{
 font-family: "Yesteryear";
 font-weight: 400;
-font-size: 158px;
+font-size: clamp(75px, 158px, 200px);
 line-height: 224px;
 color: #FFFFFF;
 ;
 
+}
+
+@media(max-width:1440px){
+  .about-page-hero{
+    height: 400px;
+
+  }
+}
+
+@media(max-width:1024px){
+  .about-page-hero{
+   height: 300px;
+  }
+  .about-hero-tittle{
+    font-size: 100px;
+    
+  }
+ 
 }
