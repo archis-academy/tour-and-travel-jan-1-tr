@@ -293,68 +293,52 @@
   line-height: 125%;
 }
 
-@media (max-width: 1050px){
-  .favorite-resorts-container{
+@media (max-width: 1050px) {
+  .favorite-resorts-container {
     padding: 7px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 35px;
   }
-  .favorite-image-box{
+  .favorite-image-box {
     max-width: 645px;
- }
- .favorite-plane-img{
-  width: 100%;
- }
-
+  }
+  .favorite-plane-img {
+    width: 100%;
+  }
 }
 
-@media(max-width:570px) {
-  
-.favorite-top-title {
-   
-  font-size: 16px;
-   
-  }
-  
-  .favorite-title {
-   
-    font-size: 30px;
-    
-  }
-  
-
-  
-}
-
-@media(max-width:300px) {
-  
+@media (max-width: 570px) {
   .favorite-top-title {
-     
-    font-size: 10px;
-     
-    }
-    
-    .favorite-title {
-     
-      font-size: 20px;
-      
-    }
-    
-   
-   
-.favorite-subtitle {
-   font-size: 10px;
-}
-    .favorite-text{
-      font-size: 10px;
-    } 
-    
-    .favorite-context-single-image{
-      width: 30px;
-      height: 30px;
-    }
+    font-size: 16px;
   }
+
+  .favorite-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .favorite-top-title {
+    font-size: 10px;
+  }
+
+  .favorite-title {
+    font-size: 20px;
+  }
+
+  .favorite-subtitle {
+    font-size: 10px;
+  }
+  .favorite-text {
+    font-size: 10px;
+  }
+
+  .favorite-context-single-image {
+    width: 30px;
+    height: 30px;
+  }
+}
 
 .homepage-trending-tour-packages-conteiner {
   padding: 0 20px;
