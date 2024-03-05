@@ -7,6 +7,174 @@
   }
 }
 
+.homepage-header-background{
+  width: 100%;
+  height: 976px;
+  position: relative;
+  object-fit: cover;
+  margin: 0;
+}
+
+.header-navbar {
+  display: flex;
+  position: absolute;
+  width: 1000px;
+  height: 67px;
+  top: 64px;
+  left: 321px;
+  justify-content:space-between;
+  align-items: center;
+ 
+}
+
+.navbar-notunderlined-writing {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar-underlined-writing {
+  text-decoration: underline rgba(231, 101, 2, 0.99);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar-get-button {
+  background-color: rgba(231, 101, 2, 0.99);
+  color: white;
+  height: 60px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.header-center-container {
+  position: absolute;
+  width: 700px;
+  height: 450px;
+  top: 210px;
+  left: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-vector-photo {
+  width: 90px;
+  height: 30px;
+  position: relative;
+  margin: 0;
+  top: 0;
+}
+
+.header-center-writing-container{
+  position: relative;
+  top: 0;
+  height: 220px;  
+}
+
+.header-center-writing {
+  color: white;
+  font-size: 60px;
+  top: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header-selection-container {
+  display: flex;
+  position: relative;
+  height: 80px;
+  width: 630px;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(168, 171, 151);
+  opacity: 95%;
+}
+
+.header-selections {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 17px;
+}
+
+.header-selection-option {
+  color: black;
+  background-color: rgb(168, 171, 151);
+  opacity: 95%;
+}
+
+.header-submit-button {
+  font-size: 17px;
+  color: white;
+  background-color: rgba(231, 101, 2, 0.99);
+  padding: 10px;
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+}
+
+.header-profile-photos {
+  display: flex;
+  height: 50px;
+  width: 580px;
+  position: relative;
+  top: 15px;
+}
+
+.header-avatar1 {
+  left: 0;
+  position: absolute;
+}
+
+.header-avatar2 {
+  left: 25px;
+  position: absolute;
+}
+
+.header-avatar3{
+  left: 50px;
+  position: absolute;
+}
+
+.header-avatar4 {
+  left: 75px;
+  position: absolute;
+}
+
+.header-avatar5 {
+  left: 100px;
+  position: absolute;
+}
+
+.header-avatar6 {
+  left: 125px;
+  position: absolute;
+}
+
+.header-avatar7 {
+  left: 150px;
+  position: absolute;
+}
+
+.header-avatar-plus-photo {
+  left: 166px;
+  bottom: 27px;
+  position: absolute;
+}
+
+.header-avatar-writing {
+  position: absolute;
+  left: 195px;
+  top: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 .homepage-partners-section {
   width: 100%;
   height: 200px;
