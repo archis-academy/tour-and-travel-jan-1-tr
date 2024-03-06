@@ -1,6 +1,6 @@
 .about-page-hero {
   background-image: url("./../images/about/about-header-img.png");
-  height: 766px;
+  height: clamp(400px, 4vw, 766px);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -29,7 +29,7 @@
   color: #ffffff;
 }
 
-@media (max-width: 1440px) {
+/*@media (max-width: 1440px) {
   .about-page-hero {
     height: 400px;
   }
