@@ -39,9 +39,11 @@
   gap: 20px;
   padding: 150px 20px;
 }
+
 .about-promotion-content-box {
   max-width: 640px;
 }
+
 .about-promotion-title-promotion {
   color: #df6951;
   font-family: "Poppins", sans-serif;
@@ -49,6 +51,7 @@
   font-weight: 700;
   letter-spacing: 1.8px;
 }
+
 .about-promotion-title-we-provide {
   color: #181e4b;
   font-family: "Volkhov", serif;
@@ -56,12 +59,14 @@
   font-weight: 700;
   line-height: 70px;
 }
+
 .about-promotion-text {
   color: black;
   font-family: "Poppins", sans-serif;
   line-height: 26px;
   padding: 20px 0px 30px 0px;
 }
+
 .about-promotion-button {
   color: white;
   font-family: "Poppins", sans-serif;
@@ -72,24 +77,29 @@
   box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
   padding: 12.5px 25px;
 }
+
 .about-promotion-img {
   max-width: 100%;
 }
+
 @media (max-width: 1228px) {
   .about-promotion-container {
     gap: 50px;
   }
 }
+
 @media (max-width: 683px) {
   .about-promotion-container {
     padding: 100px 20px;
   }
 }
+
 @media (max-width: 400px) {
   .about-promotion-title-we-provide {
     font-size: 35px;
     line-height: 45px;
   }
+
   .about-promotion-text {
     font-size: 12px;
     line-height: 20px;
@@ -97,6 +107,35 @@
 }
 
 /* About Promotion END */
+.about-wanderlust-container {
+  position: relative;
+}
+.about-wanderlust-video {
+  object-fit: cover;
+  width: 100%;
+  object-position: center;
+}
+
+.about-wanderlust-headline {
+  font-family: "Yesteryear", cursive;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  font-size: clamp(24px, 4vw, 60px);
+}
+
+.about-wanderlust-writing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*About wanderlust video ends*/
 .about-trend-section-container {
   display: flex;
   flex-wrap: wrap;
@@ -106,12 +145,15 @@
   padding: 0 20px 100px 20px;
   position: relative;
 }
+
 .about-trend-img {
   max-width: 100%;
 }
+
 .about-trend-content-box {
   max-width: 580px;
 }
+
 .about-trend-title-trend {
   color: #df6951;
   font-family: "Poppins", sans-serif;
@@ -119,6 +161,7 @@
   font-weight: 700;
   letter-spacing: 1.8px;
 }
+
 .about-trend-title-our-popular {
   color: #181e4b;
   font-family: "Volkhov", serif;
@@ -126,12 +169,14 @@
   font-weight: 700;
   line-height: 70px;
 }
+
 .about-trend-text {
   color: black;
   font-family: "Poppins", sans-serif;
   line-height: 26px;
   padding-bottom: 80px;
 }
+
 .about-trend-statistic-box {
   display: flex;
   flex-wrap: wrap;
@@ -139,6 +184,7 @@
   align-items: flex-end;
   gap: 25px;
 }
+
 .about-trend-statistic-text {
   color: #181e4b;
   font-family: "Poppins", sans-serif;
@@ -146,6 +192,7 @@
   font-weight: 700;
   letter-spacing: 1.8px;
 }
+
 .trend-statistic-img-and-text-box {
   display: flex;
   flex-direction: column;
@@ -153,29 +200,35 @@
   justify-content: center;
   gap: 15px;
 }
+
 .about-trend-shell-img {
   position: absolute;
   right: 0;
   top: -15px;
 }
+
 @media (max-width: 1400px) {
   .about-trend-section-container {
     flex-direction: column;
     gap: 40px;
   }
+
   .about-trend-text {
     padding-bottom: 50px;
   }
 }
+
 @media (max-width: 1860px) {
   .about-trend-shell-img {
     display: none;
   }
 }
+
 /* About Trend Section END */
 .about-explore-packages-section-container {
   padding: 0 20px 50px 20px;
 }
+
 .explore-packages-title-box {
   max-width: 680px;
   margin: auto;
@@ -183,17 +236,20 @@
   text-align: center;
   padding-bottom: 70px;
 }
+
 .explore-packages-title-explore {
   color: #df6951;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
 }
+
 .explore-packages-title-our-international {
   color: #181e4b;
   font-family: "Volkhov", serif;
   font-size: 50px;
   line-height: 72px;
 }
+
 .explore-packages-img-and-text-boxes {
   display: grid;
   grid-template-rows: auto;
@@ -201,16 +257,20 @@
   justify-content: center;
   gap: 52px 56px;
 }
+
 .explore-packages-img-and-text-box {
   position: relative;
 }
+
 .explore-packages-img {
   width: 100%;
 }
+
 .explore-packages-img-and-text-rio {
   grid-row: auto / span 2;
   position: relative;
 }
+
 .explore-packages-text-box {
   width: 100%;
   position: absolute;
@@ -224,18 +284,22 @@
   font-size: 22px;
   font-weight: 600;
 }
+
 @media (max-width: 403px) {
   .explore-packages-text-box {
     padding: 0 15px;
   }
 }
+
 @media (max-width: 450px) {
   .explore-packages-title-our-international {
     font-size: 35px;
     line-height: 50px;
   }
+
   .explore-packages-title-box {
     padding-bottom: 30px;
   }
 }
+
 /* About Explore Packages Section END */
