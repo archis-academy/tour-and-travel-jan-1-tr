@@ -7,91 +7,82 @@
   }
 }
 
-.homepage-header-background{
+.container {
+  height: 800px;
+  background: url("../images/homepage-background.png");
+  background-size: cover;
   width: 100%;
-  height: 976px;
-  position: relative;
-  object-fit: cover;
-  margin: 0;
 }
 
 .header-navbar {
   display: flex;
-  position: absolute;
-  width: 1000px;
-  height: 67px;
-  top: 64px;
-  left: 321px;
   justify-content:space-between;
   align-items: center;
- 
+  max-width: 1278px;
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 63px;
+  
 }
 
-.navbar-notunderlined-writing {
+.navbar-writing {
   color: white;
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
+  font-family: "Poppins" , sans-serif;
 }
 
-.navbar-underlined-writing {
-  text-decoration: underline rgba(231, 101, 2, 0.99);
-  color: white;
-  padding: 10px;
-  font-size: 20px;
+.navbar-writing:hover {
+  text-decoration: underline #DF6951 3px;
+  font-size: 25px;
 }
 
 .navbar-get-button {
-  background-color: rgba(231, 101, 2, 0.99);
+  background-color: #DF6951;
   color: white;
-  height: 60px;
-  width: 150px;
+  padding: 18px 27px;
   border-radius: 20px;
   font-size: 15px;
+  border-style: none;
+}
+
+.navbar-get-button:hover {
+  background-color: #f7f7f7;
+  color: #DF6951;
 }
 
 .header-center-container {
-  position: absolute;
-  width: 700px;
-  height: 450px;
-  top: 210px;
-  left: 320px;
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
+  margin-left: 270px;
+  width: 600px;
 }
 
 .header-vector-photo {
   width: 90px;
   height: 30px;
-  position: relative;
-  margin: 0;
-  top: 0;
 }
 
 .header-center-writing-container{
-  position: relative;
-  top: 0;
-  height: 220px;  
+  height: 220px;
 }
 
 .header-center-writing {
   color: white;
-  font-size: 60px;
-  top: 0;
-  margin: 0;
+  font-size: 58px;
+  line-height: 67px;
   font-weight: bold;
+  font-family: "Poppins" , sans-serif;
 }
 
 .header-selection-container {
   display: flex;
-  position: relative;
   height: 80px;
-  width: 630px;
-  top: 0;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(168, 171, 151);
-  opacity: 95%;
+  background-color:  rgba(243, 243, 243, 0.6);
 }
 
 .header-selections {
@@ -99,80 +90,85 @@
   color: white;
   border: none;
   font-size: 17px;
+  border-style: none;
 }
 
 .header-selection-option {
   color: black;
   background-color: rgb(168, 171, 151);
   opacity: 95%;
+  border: none;
+  text-decoration: none;
 }
 
 .header-submit-button {
   font-size: 17px;
   color: white;
-  background-color: rgba(231, 101, 2, 0.99);
+  background-color: #df6951;
   padding: 10px;
   border-radius: 10px;
   width: 140px;
   height: 50px;
+  border-style: none;
 }
 
 .header-profile-photos {
   display: flex;
   height: 50px;
-  width: 580px;
   position: relative;
-  top: 15px;
+  margin-top: 28px;
 }
 
 .header-avatar1 {
-  left: 0;
+  margin-left: 0;
   position: absolute;
 }
 
 .header-avatar2 {
-  left: 25px;
+  margin-left: 25px;
   position: absolute;
 }
 
 .header-avatar3{
-  left: 50px;
+  margin-left: 50px;
   position: absolute;
 }
 
 .header-avatar4 {
-  left: 75px;
+  margin-left: 75px;
   position: absolute;
 }
 
 .header-avatar5 {
-  left: 100px;
+  margin-left: 100px;
   position: absolute;
 }
 
 .header-avatar6 {
-  left: 125px;
+  margin-left: 125px;
   position: absolute;
 }
 
 .header-avatar7 {
-  left: 150px;
+  margin-left: 150px;
   position: absolute;
 }
 
 .header-avatar-plus-photo {
-  left: 166px;
-  bottom: 27px;
+  margin-left: 166px;
+  margin-top: 16px;
   position: absolute;
 }
 
 .header-avatar-writing {
   position: absolute;
-  left: 195px;
-  top: 10px;
+  margin-left: 190px;
+  margin-top: 10px;
   color: white;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
+  font-family: "Poppins" , sans-serif;
+  line-height: 20px;
 }
 
 .homepage-partners-section {
