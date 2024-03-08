@@ -249,7 +249,7 @@
   font-family: "Volkhov", sans-serif;
   font-size: 50px;
   font-weight: 700;
-  line-height: 72px;
+  line-height: 45px;
   color: #181e4b;
 }
 .hm-content-desc {
@@ -273,22 +273,6 @@
 }
 
 @media (max-width: 576px) {
-  /*.hm-content{
-    padding: 12px;
-  
-  }
-  .hm-image{
-    padding: 12px;
-  }
-.section-honeymoon{
-  gap: 10px;
-}
-
-.hm-content-title{
-  font-size: 8px;
-  line-height: 35px;
-} */
-
   .hm-image > img {
     width: 100%;
   }
@@ -324,7 +308,6 @@
   }
   .hm-content-title {
     font-size: 30px;
-    line-height: 45px;
   }
   .hm-content-desc {
     font-size: 12px;
@@ -379,8 +362,7 @@
 }
 
 .favorites-contexts-image {
-  /*width: 50px;
-  height: 50px; */
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -632,4 +614,3 @@
   box-shadow: 0px 15px 25px 0px rgba(225, 105, 80, 0.2);
   padding: 12.5px 25px;
 }
-/*Homepage Trending Tour END*/
