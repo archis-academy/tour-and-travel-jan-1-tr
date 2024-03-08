@@ -298,7 +298,6 @@
   display: flex;
   width: 100%;
 }
-
 .explore-img {
   flex: 1;
   position: relative;
@@ -355,6 +354,12 @@
   font-weight: 700;
   line-height: 71px;
 }
+@media (max-width: 950px) {
+  .homepage-explore-section-two-img {
+    flex-direction: column;
+  }
+}
+
 /* homepage-explore-section-start */
 
 .homepage-trending-tour-packages-conteiner {
