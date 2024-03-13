@@ -506,8 +506,17 @@
 }
 
 
-.homepage-europe-sightseeing-tours{}
-.hest-container{}
+.homepage-europe-sightseeing-tours{
+  padding: 0 20px;
+  margin: 150px 0px;
+  display: flex;
+  justify-content: center;
+}
+.hest-container{
+  position: relative;
+  max-width: 1500px;
+  flex: 1;
+}
 .hest-text-box{}
 .hest-side-heading{
   font-size: 18px;
@@ -545,21 +554,21 @@
 }
 .hest-images-boxes{
   display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.hest-big-ben-image{
-  padding: 0 25px;
+
+.hest-eyfel-box{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
 }
-.hest-town-image{
-  padding: 0 25px;
+.hest-eyfel-img{
+  width: 100%;
 }
-.hest-colesium-img{
-  padding: 0 25px;
-}
-.hest-cathedral-img{
-  padding: 0 25px;
-}
-.hest-eyfel-box{}
-.hest-eyfel-img{}
 
 
 .homepage-trending-tour-packages-conteiner {
