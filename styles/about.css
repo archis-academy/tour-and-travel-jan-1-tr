@@ -1,3 +1,36 @@
+.about-page-hero {
+  background-image: url("./../images/about/about-header-img.png");
+  height: clamp(400px, 80vw, 766px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+}
+
+.about-hero-subtitle {
+  font-family: "Poppins";
+  font-size: clamp(10px, 4vw, 25px);
+  line-height: 28px;
+  font-weight: 700;
+  color: #ffefec;
+  text-align: center;
+}
+
+.about-hero-tittle {
+  font-family: "Yesteryear";
+  font-weight: 400;
+  font-size: clamp(75px, 10vw, 200px);
+  line-height: 100px;
+  color: #ffffff;
+}
+
+/*About page hero END */
+
 .about-promotion-container {
   display: flex;
   flex-wrap: wrap;
