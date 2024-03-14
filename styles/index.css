@@ -519,29 +519,30 @@
 }
 .hest-text-box{}
 .hest-side-heading{
-  font-size: 18px;
+  font-size: clamp(16px,4vw,18px);
   font-family: "Poppins",sans-serif;
   font-weight: 700;
-  line-height: 28px;
+  line-height: clamp(24px,4vw,28px);
   color: #df6951;
   
 }
 .hest-title{
   font-family: "Volkhov", sans-serif;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 72px;
+  font-size: clamp(28px,4vw,50px);
+    line-height: clamp(40px,4vw,72px);
+    padding: 10px 0px;
   color: #181e4b;
 }
 .hest-text{
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: clamp(12px,4vw,16px);
+    line-height: clamp(16px,4vw,26px);
   color: #000;
 }
 .hest-bttn{
-  margin: 10px;
+  margin: 10px 0px;
   padding: 15px 20px;
   border-radius: 10px;
   background-color: #df6951;
