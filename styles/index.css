@@ -10,14 +10,19 @@
 .header-container {
   background: url("../images/homepage-background.png");
   background-size: cover;
-  width: 100%;
+  max-width: 100%;
   background-repeat: no-repeat;
+  height: 100%;
+  background-position: bottom;
   
 } 
 
 .header-items-container {
   max-width: 1440px;
   margin: 0 auto;
+  width: 60%;
+  padding-bottom: 200px;
+
 }
 
 .header-navbar {
