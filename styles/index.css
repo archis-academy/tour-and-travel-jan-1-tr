@@ -273,6 +273,7 @@
 }
 
 @media (max-width: 576px) {
+
   .hm-image > img {
     width: 100%;
   }
@@ -363,6 +364,7 @@
 
 .favorites-contexts-image {
   
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -501,6 +503,72 @@
   .homepage-explore-section-two-img {
     flex-direction: column;
   }
+}
+
+
+.homepage-europe-sightseeing-tours{
+  padding: 0 20px;
+  margin: 150px 0px;
+  display: flex;
+  justify-content: center;
+}
+.hest-container{
+  position: relative;
+  max-width: 1500px;
+  flex: 1;
+}
+.hest-text-box{}
+.hest-side-heading{
+  font-size: clamp(16px,4vw,18px);
+  font-family: "Poppins",sans-serif;
+  font-weight: 700;
+  line-height: clamp(24px,4vw,28px);
+  color: #df6951;
+  
+}
+.hest-title{
+  font-family: "Volkhov", sans-serif;
+  font-weight: 700;
+  font-size: clamp(28px,4vw,50px);
+    line-height: clamp(40px,4vw,72px);
+    padding: 10px 0px;
+  color: #181e4b;
+}
+.hest-text{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: clamp(12px,4vw,16px);
+    line-height: clamp(16px,4vw,26px);
+  color: #000;
+}
+.hest-bttn{
+  margin: 10px 0px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #df6951;
+  color: white;
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 26px;
+}
+.hest-images-boxes{
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hest-eyfel-box{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+.hest-eyfel-img{
+  width: 100%;
 }
 
 
