@@ -272,8 +272,7 @@
   line-height: 26px;
 }
 
-@media (max-width: 576px) {
-
+@media (max-width: 576px){
   .hm-image > img {
     width: 100%;
   }
@@ -362,9 +361,7 @@
   color: #181e4b;
 }
 
-.favorites-contexts-image {
-  
- 
+.favorites-contexts-image{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -505,43 +502,43 @@
   }
 }
 
-
-.homepage-europe-sightseeing-tours{
+.homepage-europe-sightseeing-tours {
   padding: 0 20px;
   margin: 150px 0px;
   display: flex;
   justify-content: center;
 }
-.hest-container{
+.hest-container {
   position: relative;
   max-width: 1500px;
   flex: 1;
 }
-.hest-text-box{}
-.hest-side-heading{
-  font-size: clamp(16px,4vw,18px);
-  font-family: "Poppins",sans-serif;
+.hest-side-heading {
+  font-size: clamp(16px, 4vw, 18px);
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
-  line-height: clamp(24px,4vw,28px);
+  line-height: clamp(24px, 4vw, 28px);
   color: #df6951;
-  
+
 }
-.hest-title{
+
+.hest-title {
   font-family: "Volkhov", sans-serif;
   font-weight: 700;
-  font-size: clamp(28px,4vw,50px);
-    line-height: clamp(40px,4vw,72px);
-    padding: 10px 0px;
+  font-size: clamp(28px, 4vw, 50px);
+  line-height: clamp(40px, 4vw, 72px);
+  padding: 10px 0px;
   color: #181e4b;
 }
-.hest-text{
+
+.hest-text {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: clamp(12px,4vw,16px);
-    line-height: clamp(16px,4vw,26px);
+  font-size: clamp(12px, 4vw, 16px);
+  line-height: clamp(16px, 4vw, 26px);
   color: #000;
 }
-.hest-bttn{
+.hest-bttn {
   margin: 10px 0px;
   padding: 15px 20px;
   border-radius: 10px;
@@ -553,7 +550,7 @@
   font-size: 12px;
   line-height: 26px;
 }
-.hest-images-boxes{
+.hest-images-boxes {
   display: flex;
   max-width: 1000px;
   justify-content: space-between;
@@ -561,18 +558,17 @@
   gap: 20px;
 }
 
-.hest-eyfel-box{
+.hest-eyfel-box {
   position: absolute;
   bottom: 0px;
   right: 0px;
   z-index: -1;
 }
-.hest-eyfel-img{
+.hest-eyfel-img {
   width: 100%;
 }
 
-
-.homepage-trending-tour-packages-conteiner {
+.homepage-trending-tour-packages-conteiner{
   padding: 0 20px;
 }
 .homepage-trending-tour-title-box {
@@ -671,7 +667,7 @@
   padding-top: 4px;
   padding-bottom: 25px;
 }
-.packages-card-button {
+.packages-card-button{
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
