@@ -1,0 +1,64 @@
+body li{
+  list-style-type:disc;
+}
+
+.tour-plan-box {
+  color: rgba(24, 30, 75, 1);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 9px;
+  max-width: 850px;
+
+}
+
+.tour-plan-text {
+  font-size: 16px;
+  margin: 15px;
+}
+
+.tour-plan-day {
+  margin: 15px;
+}
+
+.day-list {
+  margin: 20px;
+}
+
+.plan-list-box{
+  display: flex;
+  gap: 20px;
+}
+
+.tour-plan-list{
+  position: relative;
+}
+
+.tour-plan-list::before{
+  content: "";
+position: absolute;
+top: 0;
+left: 20px;
+width: 2px;
+height: calc(100% + 20px);
+background: #df6951;
+z-index: -1;
+
+}
+
+.list-number{
+  background: #df6951;
+  width: 47px;
+  height: 47px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.list-card{
+  max-width: 614px;
+}
