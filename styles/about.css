@@ -109,6 +109,7 @@
 /* About Promotion END */
 .about-wanderlust-container {
   position: relative;
+  padding-bottom: 60px ;
 }
 .about-wanderlust-video {
   object-fit: cover;
